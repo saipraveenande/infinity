@@ -1,0 +1,293 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Include Tippy.js via CDN -->
+    <script src="https://unpkg.com/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@6.3.1/dist/tippy-bundle.umd.js"></script>
+    <title>My opinion</title>
+    <style>
+       @media (min-width: 768px) {
+      #mobileMessage {
+        display: none;
+      }
+
+      #content {
+        display: block;
+      }
+    }
+    </style>
+  </head>
+  <body>
+    <!-- Display the message for mobile users -->
+  <div id="mobileMessage" class="bg-black text-white p-4 text-center">
+    Praveen says: "Sorry for inconvience" Webpage is not mobile responsive. Please open the URL on your Laptop to view the content.
+  </div>
+
+  <!-- Add your content here -->
+  <div id="content" class="hidden">
+   
+    <section class="flex flex-col min-h-screen bg-slate-800 text-white bg-center bg-cover bg-blend-overlay bg-fixed bg-black/30" style="background-image: url('https://source.unsplash.com/random/')">
+      <div class="text-white text-opacity-60 px-2 py-1">
+        <p class = 'text-xs'>Visit in Laptop for Better Experience</p>
+      </div>
+      <div class="flex-1 flex items-center">
+        <div class="text-center mx-auto">
+          <h1 class="text-5xl font-semibold">Heartly welcome Mr.Laxman!</h1>
+          <p class="font-light text-3xl mt-5">Its a method of conveying or sharing.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white flex mx-auto p-8" style="min-height: 50vh;">
+      <div class="bg-white rounded-lg shadow-lg p-3 m-10 "> 
+        <p class="text-xl font-bold mb-3 text-blue-900">A Quick Tutorial:</p>
+        <p class="text-sm md:text-base ">
+          Kindly hover the cursor over the text with bold and underlined words such as
+          <span id="speech" class=" font-semibold underline cursor-pointer">SPOKE, STATED, EXPRESSED, VOICED, MESSAGED, SHARED, REVEALED</span>
+          to see what statements were passed in the past.
+        </p>
+      </div>
+      <div class="bg-white rounded-lg shadow-lg text-justify p-3 m-10">
+        <p class="text-xl font-bold mb-3 text-blue-900">Reason why to convey like this:</p>
+        <p class="text-sm md:text-base ">
+          Actually, I should say this over the phone call with you, but you
+          <span class="font-semibold cursor-pointer underline" id="speech1">STATED</span>
+          that you are not ready for that. It feels like conveying hundreds of words in a long text message might be boring! So please be comfortable with this.
+        </p>
+      </div>
+    </section>
+
+    <section class="flex flex-col min-h-screen bg-slate-800 text-white justify-center  bg-center bg-cover bg-blend-overlay bg-fixed bg-black/30" style="background-image: url('https://source.unsplash.com/random/')">
+      <h1 class="text-2xl font-bold px-20 mb-3 text-white">Initialisation & Queries</h1>
+      <div class="p-5 ml-20 mr-20 border rounded-lg text-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-justify">
+        <p class ="mb-3"><span class="font-bold">Lavanya</span> ante nakhu chala istam, ma idhariki ee chinna clash vachina ventane dhaniki cheppesta, 7th na nen return iyye dapudu mee mundhe anesanu <span id ="speech2" class="font-semibold underline cursor-pointer">EXPRESSED</span> and kopam vaste kopadipotha em unna apude clear chessukhunta anthe gani lopala dhachukhuni bhayataki normal ga navuthu matladam radhu, alakakunda thana priorities khuncham change ayinatunnayi ani nak anipinchinapudu sare inka mana life manadhi thanakanthunte manakenthundali ani ego ki veli thananundi kuncham khuncham dhuramypodam correct antaraa, nen nijanga idhe chesunte mek problem undedhi kadhu 23rd ala initiate theskunevaru kadhu. But apudu madhu vallaki nakhu difference em untadhi<span class="text-red-500 font-bold"> ?</span></p>
+        <ul class="p-3 list-disc">
+          <li class="mb-3"> In my point of view lo love anedhi chinna vishayam compared to friendship bonding between me and lavss. nakhu thanaki unna bonding 4th person evvaru ardham cheskoleru, aa 3rd person evaro nak chepthara_______<span class="text-red-500 font-bold"> ?</span></li>
+          <li class ="mb-3"><span class="font-semibold cursor-pointer underline" id="speech7">STATED1</span>, <span class="font-semibold cursor-pointer underline" id="speech8">STATED2</span>  ante dhani internal meaning nen em ani ardham cheskovali, meeru nannu nammithe nen mimmalni mosam chesana_______<span class="text-red-500 font-bold"> ?</span> Okay! mosame chesanu! em chesanoo kasta chepthara_______<span class="text-red-500 font-bold"> ?</span></li>
+          <li class="mb-3">meeru enno lopala dhachukoni inni days antha baga ela matladaru like <span id ="speech3" class="font-semibold underline cursor-pointer">VOICED1</span>, <span id ="speech4" class="font-semibold underline cursor-pointer">VOICED2</span>, <span id ="speech5" class="font-semibold underline cursor-pointer">VOICED3</span>, <span id ="speech6" class="font-semibold underline cursor-pointer">VOICED4</span>... ani chala bhaga chuskunaru ela possible asalu<span class="text-red-500 font-bold"> ?</span></li>
+          <li>Meeru nakhu ila message chesinattu thanaki thelusa<span class="text-red-500 font-bold"> ?</span> </li>
+        </ul>
+          <p class="mt-3">Idhantha meru full ga chadhuvutharu ane anukhuntunanu. Please, feel free to convey if there are any uncleared statements or newly raised ones. Navalla ibhandhi padodhu nannu direct ga question cheste, na point of view nen chepthanu and nadhi thappunte maradanike try chestanu<span class="text-green-500 font-bold"> !</span></p>
+      </div> 
+    </section>
+
+    <section class="bg-gray-100 bg-fixed style='min-height:85vh' ">
+      <div class="container mx-auto  px-4 text-justify">
+
+        <div class="text-black p-8 bg-white mt-12 rounded-lg shadow-xl">
+          <h2 class="text-2xl font-bold mb-4">My Preferances</h2>
+          <span id ="speech9" class="font-semibold underline cursor-pointer">SHARED</span>:&nbsp;&nbsp;Lavanya khuda idhe chepthadhi. Meerepudu think chyledha thanu nakhu antha importance ichindhante nen thanakhu inkentha importance ichanu anedhi, 1week back na phone lo balance leka incoming calls khuda agipothe apudu voice call lo <span id ="speech10" class="font-semibold underline cursor-pointer">REVEALED</span>. Naa side nundi etuvanti preferance and importance thanakhu lekhundane ipati varakhu thanu nakhu intha preferance ichindhi ani meeru anukhunnara<span class="text-red-500 font-bold"> ?</span> Thanu nakhu entha importance ichindhi ante metho compare chesi cheptharu kani nen thanaki entha importance ichanu ante compare chydanike na life lo eee okkaru leru, ina nen epudu intha importance ichane neku ani cheppali ani epudu anukoledhu, ledhante okasari Bhargavi(+919603773283) tho matladandi, thanaki thelsina oka 20 - 30% lo velyntha mekhu convey chydaniki try chestadhi. Frank ga cheppalante nen Lavanya ni thappa evvarini lekkechynu. </span>
+          <div class="max-w-md mx-auto p-3 m-3 bg-white shadow-md rounded-lg flex items-center">
+            <span class="text-xl font-bold">Example: </span>
+            <audio controls controlsList="nodownload" class="w-full ml-4 rounded-lg bg-gray-200 p-2">
+              <source src="lavanya_me.mp4" type="audio/mpeg">
+            </audio>
+          </div>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ika mee relation antara, meru idharu chala correct ga unnaru. Mekhu cheppe antha vadini kadhule ani recent ga ardhamyndhi ina chepthunna: <i>"Tharvatha nenu meetho unna lekapoyina meeru eppudu aa strongness alage maintain cheyindi, enni ups and downs vachina".</i> <span class="font-semibold cursor-pointer underline" id="speech11">EXPRESSED</span> meeru cheppina theory ne ipudu mee dhaggarakochesariki meke nachaledhu chusara! Nachadam, nachakapovdam pakkanedithe me mind lo and Lavanya mind lo khuda full negetive ipoyanu anni sarlu nen thanaki cheppesariki. <del>ME</del></p> 
+          
+        </div>   
+        <div class="text-black border-2 border-gray-500 p-3 mt-12 mb-12 rounded-lg shadow-xl bg-white ">
+          <h1 class="text-2xl font-bold text-black">Doubts and clarifications:</h1>
+          <ol class="list-decimal">
+            
+            <li class=" font-light  mt-2 mr-4 mb-1 ml-5">"And nak ardham kavadam ledhu nuvvu ala endhukhu ala matladavo ni mindlo em move avuthundho..thanu na dhaggara vundhi ana....ledh ante tanu nike time ivvala, nik cheppakhunda em cheyyakhudadha asalu, nak leni possessiveness nike ento ardham kavadam mem bayata tiruguthunnam ana. Asalu chala.matalu vinnanu lavanya dhaggara enti ila change vidilo ani."</li>
+              <ul class="list-disc ml-8 mr-4">
+                <li>Nakhu own sisters evaru leru, chinnapatinundi ma pinni valla intiki velli raki kattinchukodame kani nijaniki aa original vibe thanu naa life lo ki vachaka bhaga nachindhi, so as usual thana happiness, thana face medha aa chiru navvu chudalani eppatikapudu try chestune unnanu since 2020 december.</li>
+                <li class="mt-2 mb-2"><span class="font-semibold cursor-pointer underline" id="speech12">MESSAGE</span>: Thanu na chelli so nachaledhu, hyd vellagane ekkadundhi, ela undhi enti ani oka mata khuda cheppakhunda kanisam nak phone chesi 120 seconds matlade time khuda ledhu ante nen nammanu, nak akkada person tho avasaram ledhu Ravi tho vellina cheppalane antanu nenu, thanocharu/annayya vachadra bhayatakelthunna ani nak oka mata chepthe nak dhyryam ga untadhi ani nen feel iyyanu, but...</li>
+                <li>Nen vachedapudu meetho oka mata cheppanu, <span class="font-semibold cursor-pointer underline" id="speech13">SPOKE</span> and after that day nen call khuda chesanu <i>"vellandi ela undho cheppandi"</i> ante meeru next day veltha annaru and next day call lo <i>"she is ok praveen nothing to worry"</i> annaru. <span class="font-semibold cursor-pointer underline" id="speech14">MESSAGE</span> ila nen feel ayi untee <span class="font-semibold cursor-pointer underline" id="speech15">EXPRESSED</span> ela metho cheppapodhunu and 6th and 7th june na ala kalisi thiragapodhumu, nen thanani kalavalante metro lo rapido lo vellalenantara.</li>
+                <li> <span class="font-semibold cursor-pointer underline" id="speech16">MESSAGE</span>: Avasaram ledhu 1440 minutes lo oka >2 minutes chalu ane feel iyya and adhi khuda thanu akkada okay ani nak cheppe oka sign of representation.</li>
+                <li><span class="font-semibold cursor-pointer underline" id="speech17">MESSAGE</span>: Honestly nen epudu mee idhari madhya bonding figure out cheyyali anna alochana raledhu and epudu anukole. madhe ever forever relation anukhunna but 7th na nen realise iyya <i>"Maa 3years bond ni single day lo change chese great relationship aaa mee idharidhi"</i> ani.</li>
+              </ul>
+              <hr class="border-t-2 mt-3 border-red-500">
+
+            <li class="font-light mt-3 mb-2 mr-4 ml-5" >benches midha kurchunappudu.. lavanyani question chesav nannu pakkana pettukuni  asalu ela chesav ardam kaley praveen naku .. ni8 call cheste endhuku lift cheyyaledh ani ..tanu laxman tho matladutundhi antey..nik chesindha idi call ani adigav .ah confirmation ento ardam kaley...nen nik answer icchanu chudu em ani antey nake chesindhi praveen vadiley natho matladindhi em anukoku ani..natho matladey free ness kuda ledha anipinchindhii...anni cheppi cheyyala niku ani anipinchindhi ..entha time matladav ani adigav asalu ah question ki stun asalu nenu..entha time.matladitey enti asalu anipinchindhi...</li>
+              <p class="ml-5"><span class="font-semibold">ShortAnswer:</span><span> Its my mistake, VERY SORRY for that<span class="text-green-500 font-bold"> !</span></span></p>
+              <div class="flex">
+                <span class="inline ml-5 font-semibold">LongAnswer:</span>
+                <p class="inline mr-4"> Thanu meetho matladakhudadhu anedhi naa intention kadhandi assalu ante assalu khadhu, meru nammina nammakapoyina alanti uddhesam ithe nak ledhu, aa time lo naakhu thanaki conversation antha healthy ga ledhu something edho godava lo unnam, thanatho godava ayinapudu na brain sarigga alochinchadhu edhokati matladestanu andhuke na responce kuda intha time patindhi anthe gani meru matladukokudadhu anedhi na udheasam ithe kadhandi, Please try to understand<span class="text-green-500 font-bold"> !</span></p>
+              </div>
+              <hr class="border-t-2 mt-3 border-red-500">
+            <li class="font-light mb-2 mt-3 mr-4 ml-5" >nuvvu lavanyaki pettav praveen don't cross limits ani that msg pushed me into hurting stage...</li>
+              <p class="mr-4 ml-5">Honestly aa msg peduthunapudu nen antha alochinchale! 2 to 3 days before ma friends circle lo nundi aa word naa chevina padindhi same idhe moment Eswar and valla GF nights meet avthunnaru ante don't cross limits ani Nazir cheppina mata, same dhanne copy & paste chesanu nen ikkada, idhi chepagane aa word strick ayyi cheppanu gani inke vere alochana nak strike ayi kadhu. Nijanga aa message peduthunapudu nen asalu antha think chylee. Meekhu antha hurtinga anipinchinapudu nanu epudyna direct ga adigundalsindhi meekhu clear ga ma friends ni chupinchi mari clarity chesevadni and appati nundi manam matladukoledhante kadhu meet khuda iyyam apudyna direct ga adigi clear chessukhunte bhavundedhi kani ila manasulo petukoni, natho normal ga matladi situation vachinapudu thanatho ala abhadham chepinchadam sarinadhi kadhemo ani naa alochana and inni years ga thanu nakhu abhadham chepthadhi ani nen epudu anukoledhu adhi khuda mee matalu vini, aa roju anavasaram ga call chesana ani chala regret iyyanu, why because nen call chesinandhukhu thanu abhadham cheppalsi vachindhi ani naamedha nake chirakesindhi, hundreds of emotions, apudem matladina naa matala valla meeru feel avtharu ani silent ga undatam jarigindhi andhuke evari calls pick chyledhu. Makhu edhyna godava vachinapudu discussion lo anedhi thanu <i>"Kavalante vallanadugu? vellanadugu?"</i> ani, <i>"Nakhu nuvvu mata chepthe challu nak elanti proofs avasaram ledhu"</i> anevadni and Nijanga nen ala message chesundakhudadhu, Sorry for that<span class="text-green-500 font-bold"> !</span></p>
+              <hr class="border-t-2 mt-3 border-red-500">
+            <li class="font-light mb-2 mt-3 mr-4 ml-5">Don't share this words to your family and your brother..vallu antey  istam lavanyaki malli ikkada personals valla badha padakudadhu vallu</li>
+              <p class="px-6">Nen ala cheppe type ithe kadhu<span class="text-green-500 font-bold">!</span> maa madhya enni godavalunna epudu evariki cheppukoledhu nenu gani thanu gani, oka godava peddhadythe okasari vamsi gadiki nene cheppanu, malli ipudu mee varakhu vachindhi. Bhargavi aduguthadhi <i>"Enti emyndhi"</i> ani <i>"Nekavasaram ledhu, avanni nekendhukhu?"</i> ani direct anestanu.</p>
+          </ol>
+              <hr class="border-t-2 mt-3 mb-2 border-red-500">
+        </div>      
+
+        <div class=" p-3  bg-gradient-to-b from-gray-400 to-gray-800 shadow-lg rounded-lg">
+          <span class="text-2xl font-bold">The big one:</span>
+          <p class="text-gray-800 mb-2 m-3 ml-5">Nen kuda nilane alochinchi vuntey  oka 3 years back lavanya boyfriend la  lavanyaki niku madya ah bonding anedhi build ayyedhi kadhemo...kottha parichayalu endhuku lavanya manaki jariginavi chalu teliyani vallaki advantages  ivvakudadhe.manam ani cheppi marchavalsindhi appudey ala chese ri8 vundhi nak ah right kuda possesive valla vastadhi... alochinchalsindhi kadha  ala restrict cheyyavalsindhi kadha ... Nen endhuku cheyyaledhu antav ala.. nik vunna antha maturity ledh emoley praveen nak appudu...nen ninnu chala.nammanu even nitho matladaleni roju ninnu nammanu.. jarigina vishyam niku teluso ledho madhu ,namitha villu telusu niku lavanya diplomo friends chesina scene ki evariki ivvalsina limit vallaki ivvu advantage tisukonivvaku ,,advantage ivvaku ani cheppaledhu.... Nak anipinchinndhi ippudu praveen nen tappu chesana ani... Thank you so much praveen for your  concern on us... till now</p>
+          <p class="ml-5 mr-4">
+            <span class="font-bold ">Kotha parichayalu, Advantage:</span>    Nen theskunnana advantage<span class="text-red-500 font-bold">?</span> Thanu naku advantage ichindhi, dhani nen advantage theskunnanu ane khadha merantunnaru<span class="text-green-500 font-bold"> !</span> 
+            <li class="ml-8 mr-4">Saree ala advantage theskoni mek gani, Lavanya ki gani em chessano khuncham justify chesi chepthara<span class="text-red-500 font-bold">?</span></li>
+            <li class="ml-8 mr-4">Which means thanu nak ichina preferance ni, nen emo advantage ga theseskoni em dhroham chessanaa ani na doubt kasta clearify chesi chepthara<span class="text-red-500 font-bold">?</span></li>
+          </p>
+
+         
+    
+          <div class="px-5 text-white text-justify" style="display: none;" id="moreText">
+              <hr class="border-t-2 mt-3 border-red-500">
+            <h3 class="text-4xl mb-2 mt-4 font-bold text-gray-700">In B.Tech</h3>
+            <p> &nbsp; &nbsp; &nbsp; &nbsp; May be mek kasta clearity miss ayindhi<span class="text-green-500 font-bold"> !</span> &nbsp;Lavanya nakhu parichayamayinapatiki Lavanya & madhu vallandhari bonding healthy gane undhi. Sections divide chesaka ante thanu nakhu parichayam ayina 1 month tharvatha Lavanya B-section kelindhani edichesindhi, thana edupu chudatam adhe modhati sari ala gurthundipoyindhi. Em jarigina thanani happy ga unchalanukhunna.</p>
+            <p> &nbsp; &nbsp; &nbsp; &nbsp; Lavanya tho valla class girls kalisevalle kadhu. Purna, Mouli vallaki <span class="font-semibold cursor-pointer underline" id="speech26">VOICED</span> ani cheppa, but vallu na dhagara <i >sare ra</i> ani tharavtha thanatho just avasaranike matladevallu, anthaga interaction undedhi kadhu. Ila kadhani valla CR ni adiganu <span class="font-semibold cursor-pointer underline" id="speech27">ASKED</span>. Valla CR rendu sarlu matladindhi. Phone chesi conversation start chy ante natho matladedhi ela ante valla intlo personals, valla dad valla mom tho undarani, ila anni personals cheppesedhe. Lavanya tho mingle ayyedhi kadhu inka nen thanatho matladame manesanu, ika ila set avvatledhu ani <span class='font-bold'>Evarunte enti, lekapothe emyndhi nen unnane nekhu</span> ani support ichanu. Break lo velli kalise vadni, after lunch velli matladevadni, inka nene chuskone vadni edhunna, em kavalanna. Inthalo Lavanya Ramya tho friendship chesindhi, but Ramya double game adedhi ekhuva rojulu leru vidipoyaru, apudu Lavanya mind lo fix ayipoyindhi <b>Natho evaru kalavaru</b> ani. Exams ki bhayapadedhi, results vachevarakhu bhayapadipoyedhi, chala negetive ga alochinchedhi chala ante chala. Nijanga chala try chesanu thanalo positive vibes ni thiskuravali ani kani fail iyyanu. Entha nen unna nak anni cheppukoledhu kadha adapilla ani na manasulo undedhi.  Valla class lo Gayatri ani chala silent ga undatam observe chesanu, thanaki insta lo request petti, chat chesi, kasta friend ga OK anipinchaka nen pdf lu adigevadni nakhu send chesedhi. Lavanya ki pdf lu khuda evaru pettukapothe vallaki maku vere subjects electives and open electives Gayathri ni Lavanya ki send chy, thanatho move avvu ani cheppanu. Gayatri send chestundedhi, matlededhi kani Lavanya ki unna negetive vibe valla idhi sarigga move avvalepoyindhi.</p>
+            <p> &nbsp; &nbsp; &nbsp; &nbsp; Okasari Fest ki Lavanya ki cheppaledhu surprise chedham ani. Thanu seminar hall loki edustu vachindhi, emyndha ani pichekesindhi kani matladaniki ledhu, <i class="font-semibold">Nen stage ekki dance vestundaga, Lavanya nannu chudagane, thana edupu antha excitement ga change ayyi thanu arustunte, chuttu anthapedha sound tho songs, andhari kekala madhya, andharu blur ayyi, Lavanya mathrame highlight ayyi, thanani chustu dance vestunte stage medhee navochesindhi</i>. Aa 5 minutes nijanga memorable makhu asalu marchipolem, nen thanakichina 1st surprise adhe. Tharvatha dance bhaga vesav ani senior girls parichayam ayyaru, vallani khuda adiganu <i> Maa friend valla class lo girls ila unnaru, meeru okasari evarnyana pilichi matladandi.</i> ani adigithe, vallu MONA tho matladaru nijanga thanu chala bhaga respond ayindhi <i>Mem kalupukovalane chustunnam thantho evaru kalavarane negetive lo undi matho kalavatle, ina mem try chestamu edhyna avasaram unte na number theskondi</i> ani khuda annadhanta MONA seniors tho. MONA ante monna mrg ki meeru pelli card type frame veyincharu khadha thanu. Ma fnds andharu parichayam iyyaru andharu bhaga matladevaru Lavanya tho.</p>
+            <p> &nbsp; &nbsp; &nbsp; &nbsp; Makepudyna godavayinapudu kopam lo matladukhunevallam kadhu. Okarimedha okariki entha kopam ga unna Idharam chala bhadha pade vallam, Vamsi gadni pampevadni <i>thanela undho chudra okasari matladi raara</i> ani, vadochi: <i>Thanu chala bhadha paduthundhi ra velli matladi rara kuncham & thaginchu ra mari antha deep vadhu<span class="text-green-500 font-bold"> !</span></i>  anevadu. Nakhu Lavanya ki discussion jarigaka antha normal, anni marchipoyi happy ga undevallam. <b>Jagadish</b> gadu enno sarlu pilichadu <i>ala veli thirugudham rara<span class="text-green-500 font-bold">!</span></i>, <b>Nazir</b> gadanevadu <i>astamanu thanatho em matladestav ra<span class="text-red-500 font-bold">?</span></i>, <b>Sudheer</b> gadu annadu <i>matho undra clg lo thiragadaniki veldham rara<span class="text-green-500 font-bold"> !</span></i>, <b>Nikil</b> gadu anevadu <i>Endhukhu thanemyna ne lover aa? kadhu! poni family lo relative aa? kadhu! marendhuku ra<span class="text-red-500 font-bold">?</span> okkokadu okkola anukhuntadra merento mak thelsu kabhatti parledhu<span class="text-green-500 font-bold">!</span> kani verevalu edho undhane aneskuntarra</i>.  Vallandhariki okate cheppevadni <i class='font-semibold'>Thanu nakhu lover kante enkhuvera, lover mana life lo epati varaku untadho surity ivvalem, tanu na life long untadhi ra. Valla class girls evaru sarigga care chyru matladru, nen thanani ontariga vadhilesi normal ga kanabadapudu palakariste, ontariga unna ammayi ni chulakanaga chustarra and ontariga unte thana mind loki edhoka alochana vastadhi aa thought thanakunna negetivity valla thanani bhadha pedathadhi. Inka verevallu edho anukhuntaru ani mak em bhadha ledhu, mem ento maa madhya unna bond ento ma idhariki clearity undhi<span class="text-green-500 font-bold"> !</span> Evaro edho anukuntaru ani mana anukhunna vallani bhadha pettadam entha varakhu correct ra<span class="text-red-500 font-bold">?</span></i> anevadni.</p>
+            <p> &nbsp; &nbsp; &nbsp; &nbsp; HOD ne 2 times cheppadu nakhu okasari class lo andhari mundhu arichadu okate annanu <i>Nenu thanatho kakunda veere ammayi tho gani ammayila venakala gani therigana, ala meru epudyna chusara<span class="text-red-500 font-bold">?</span> Thanu maa pedhamma khuthuru, nakhu chelli ani cheppaka khuda meru ila matladuthunnara<span class="text-red-500 font-bold">?</span></i> ananu. Lavanya ki ivem thelidhu HOD ila annade ante malli dhaniki nachaka <i>College lo matladukodhu</i> ani thanu feel avthundhani dhaniki em thelinivvaledhu. Lost semister lo Lavanya sardhaga edho ante ma class Sruthi: <i>Apave ne pulihara</i> annadhi, nak chirakochindhi kani nen apudu em matladaledhu. Tharvatha Sruthi dhaggarakeli: <i>Video calls matladalu, evarevaritho beach lakelthunnaru, bhathukento bhaga thelsu. Lavanya character tho compare chydaniki khuda saripove nuvvu. Monna placement cell lo nannu kuda edho annav, kani nen silent ga unnanu. Lavanya ni istam vachanatu matladithe bhagodhu</i> ani.</p>
+            <p> &nbsp; &nbsp; &nbsp; &nbsp; B.tech lo junior(Siri) tho godavayithe, intlo kelli godava chessi Lavanya tho Sorry chepinchamani, valla bavochi nannu theskelaru Lavanya ki phone chesi sorry cheppinchamannaru, <i>thana thappem ledhu thanu sorry ithe cheppadhu</i> annanu. Chuttu valla side manushule.  Valla bava Lavanya tho matladatha phone chy ante 5-7times chesanu pick chyle, valla bava natho: <i>Reyi aa ammayi nek friend antunnav, inko 2 years lo pelli cheskoni velpothadhi, nee medha mem edhoka case veste adhi nee life long untadhi, so repu clg lo sorry cheppinchu<span class="text-green-500 font-bold">!</span></i> annaru. <b>Meru anukhunantha childish friendship em kadhu madhi, life long undedhi<span class="text-green-500 font-bold">!</span> thanu sorry cheppadhu</b> annanu, aa ammayi vachi, namedha chy jeskoni velipoyindhi. Valla bava vachi <i>Mee friend tho sorry chepinchadanike theskochanu, ila avthundhanu koledhu em anukokhu<span class="text-green-500 font-bold">!</span></i> annadu. <i>Asalu ma side thappu lekunda mem ela cheptham sare kottesindhi em bhagupadathadho chudham</i> ani vachesa. 1month lo accident ayyi oka nela hospital lo undhi, inka kuntuthu nadustundhi papam, thana side nundi vachinodu detend ipoyadu. Ivem dhaniki thelivu.</p>
+            <p> &nbsp; &nbsp; &nbsp; &nbsp; Okasari seminar hall lo Lavanya back row lo khurchundhi. Nen thanakante inka venakala khurchunna, prathi class lo kontha mandhi yedhavaluntaru, ma class lo vallu na row lo khurchuni Lavanya ni chusi <i>Evarra thanu</i> ani pakkanodini adigithe, <i>Praveen gadalla friend era</i> ani cheppadu. Nen thanatho undadaniki idhi khuda oka reason. Okkathe thirige ammayini chuste mudhe chulakana kattestaru. Avem lekhunda, evvaru thananem anakhunda, ee okkadu thanani bad way lo chudakhunda, oka wall laga protect chesanu ee 3years thanani.</p>
+            <p> &nbsp; &nbsp; &nbsp; &nbsp; Placements start iyyaka, jobs ravali ani try chesam DXC lo raledhu dhaniki chala feel ayindhi. <i>'Avi chadhuvu edhi nerchuko'</i> ani push chesevadni. TCS lo ravalanukhundhi, 1st round select ayindhi, interview ki chala prepare ayindhi kani vadinka update ledhu. Inka dhaniki job lo kuda negetive thought vachesindhi. Pivox drive jaruguthunte, <i>'vellave nuvvu, vamsi gadu select avthare vellu'</i> ani force chesi pampiste, 2 rounds select ayindhi lost lo poyindhi. DIPIND ki vellu intikeli attend avvu avvu ani force chesi pampiste, job kotti chupinchindhi full happy apudu. Lost TTEC vachindhi idhariki andhulo ravalani fix iyyyam, 15th exams ipoyayi, Python avi nene cheyyali Lavanya ki radhu. Coding emyna aduguthademo ani 20th varakhu prepare iyyanu, TTEC vadu avem adagaledhu antha cool, dhaniki job vachindhi, nen reject iyyanu its my fault. Meru anattu ee advantage thessukone vadini thana life lo nundi restrict chesunte adhi dxc and tcs tharvatha inke placement drives ki attend avvadhu ani kachithanga cheppagalnu.</p>
+            <p> &nbsp; &nbsp; &nbsp; &nbsp; Lavanya ttec result vache mundhu chala bhayapadindhi <i>"nen reject ipothanemo ra"</i> ani apudu dhaniki <i>Interview attend iyyam, ipoyindhi<span class="text-green-500 font-bold">!</span> results em ina kani We will Grow together</i> ani. Nak dxc training start inapudu ivi cheparu ani aa pdf lu send chesanu kani thanu interest chupinchaledhu. Adhi company kellaka each and every thing nak chepthadhi anukhuna, 1st day chala forms fill chesam annadhi em forms ante chala forms andhi inka vadhilesa<span class="text-green-500 font-bold">!</span> Andhuke annanu <i>Nuvvu em cheppatledhu</i> ani anthe gani mee idhari privacy nak cheppatledhu ani vati medha epudu interest chupichaledhu. Meru aa msg ela pettaro gani and okasari discussion jariginapudu khuda thanaki cheppanu: <i>Aa company lo nv unna nen unattu nak knowledge ravali<span class="text-green-500 font-bold">!</span> ne work epudyna nen chessela undali</i> ani Today em cheppparu? ante avi evi nen padukhunna anedhi. Okasari marks thakhuvachayi ani edchindhi, thanu diploma lo oka subject fail ayindhane chala negetive ga alochistadhi alantidhi job matter lo edhyna jarigithe dhenni alochanalanu nenu control chylenu asalu ani <i>"Ala kadhe Python nen chepthanu"</i> ani aa day night 12 dhatindhi. Nak thelsinantha varakhu maximum ardhma iyyela cheppdaniki try chesanu. Tharvatha phone chesi nak ekkhuvachayi ra sir appriciate chesaru nannu annadhi, aa mata nakhu chala happiness ichindhi. Erevaryna ithe: Job nvu chestunnava nen chestunnna nakem thelsu nekhu avannni vachukabhatti nek job icharu nannu aduguthaventi nak radhu ani cheptharu. Work nuvvu epudyna cheyyalekapothe stress avvakhu, nakhu cheppu nen nerchukoni ina nek help chestanu ani cheppanu, dheni batti mer ardham cheskochu Naakhu thanu enti anedhi<span class="text-green-500 font-bold"> !</span></p>
+            
+              <div class=" px-16 py-5 rounded-lg flex justify-between">
+                
+                <div class="rounded-lg overflow-hidden shadow-lg">
+                  <sup class="font-bold">Maa First conversation</sup>
+                  <img src="image3.png" alt="Image 1" class="w-40 h-100 object-cover">
+
+                </div>
+                <div class="rounded-lg overflow-hidden shadow-lg">
+                  <img src="image2.jpg" alt="Image 2" class="w-40 h-100 object-cover">
+                </div>
+                <div class="rounded-lg overflow-hidden shadow-lg">
+                  <img src="image1.png" alt="Image 1" class="w-40 h-100 object-cover">
+                </div>
+              </div>
+            
+            <p> &nbsp; &nbsp; &nbsp; &nbsp; Idhantha nenedho publicity stunt kosam chepthunatu mekhu anipinchochu, nen antha chesanu intha chesanu ani goppalu cheppukodaniki kadhu, ala cheppukovali ani epudu anukoledhu khuda, meeru ipudu maa idhari madhyalo vacharu kabatti cheppanu. In the same way Lavanya ki nen ante chala istam, intikelthe em thochadhani College ipoyaka khuda vellakhunda undevallam(kani ma fnds ki kangarekuva), na kosam chala chesindhi and nak enthoooo importance ichindhani mekhu thelsu, nen thanaki etha preferance ichano mekhu theliyali khadha ani khuncham convey chydanaiki try chestunna anthegani maro rakanganu kadhandi. Thanu napy chupinche Istanni, preferance ni epudu advantage ga theskoledhu, thana feeling ante naku respect! chulakana khadhu<span class="text-green-500 font-bold">!</span>  And indholu unnavi konni Lavanya ki khuda thelidhu. Nen chala smooth ga chepanu gani, nakhu matladam rakapovadam valla ma madhyalo chalane godavalavthundevi, chala downs and ups unnayi, aa downs vachinapudu nuvvu lepothe nakenti anukoni epudu vidipoledhu, enni godavalochina solve cheskoni kalisipoyevallam. Ee godavalu ani temporary bonding mathram perminent ani feel avthamu idharamu khuda, enni godavalu jarigina sarle ani discussion pettukoni clear cheskoni mundhukelthamu mem, chinna chinna vatiki vadhulkhuntu velpothe mana dhaggara evvaru migalru and ee godavalu makem kotha kadhu, epudu undevee inka vadhu vidipodham annantha varkhu vellipoyayi ina epudu vidipoledhu. Ala maa idhari minds sinc ayyayi kabhatte ma idhariki oka strong bonding form ayindhi<span class="text-green-500 font-bold">!</span> adhi khuda mak thelikhundane jarigipoyindhi. ECE-A and B sections lo evaridhaggarakyna veeli maa idhariki godava ayindhi ra ante <b>"ha sarle mer epudu kottukuntane untaru khadha"</b> antaru. Swarnandhra nakichina best gift Lavanya ne, ee college lo endhukhu join iyyanu ra dhevuda ane question ki nak ventane strick iyyedhi Lavanyane. Ma bond ni meeru B.Tech lo restrict chesi apalakhunna apalekapodhuremo. Ma B.Tech journey lo chala bhadhalu, feelings, sacrifice, Enjoyments, exicitments, happinesses, love, care, supports, surprises, eye tears, laughes, bike drives, discussions, exam tensions, fightings, biryanies, teaters, smiles, cries, ila inkenno chaaalane unnayi. Ee rakanga anni gurthuchesinandhukhu Chala Thanks, Thank you so much <span class="text-green-500 font-bold">!!!</span></p> <div class="flex justify-center font-bold text-black"><span class="text-white text-5xl">&#8734;</span> UNCONDITIONAL LOVE <span class="text-white text-5xl">&#8734;</span></div></p>
+          </div>
+          <div class="flex justify-center">
+            <button class="mt-2 px-2 py-1 bg-white rounded-lg animate-pulse text-black" id="readMoreBtn" onclick="toggleReadMore()">Optional! Better to know!<span class="inline-block transform rotate-90">&#9650;</span></button>
+          </div>          
+        </div>
+   
+        <h1 class="text-3xl mt-5 font-bold text-gray-800">Feedbacks and Conclusions</h1>
+        <div class="text-white mt-4 bg-black p-5 mb-12 rounded-lg shadow-xl">
+          <ol class="list-decimal">
+            <li class="font-light m-3 ml-5">NEN NI VISHYAM LO EM CHEDDAGA CHEYYALEDHU ..NUVVU NA VISHYAM LO CHEDDAGA CHEYYALEDHU... MANA IDDARIKI MADYALO EMI LEVU KUDA CLASES...  SO KONNI MATALU BADHA PETTAY AVI TELISTEY NO PBLM LEDH ANTEY LYT....</li>
+              <i class="flex text-xl justify-center">O  K  A  Y</i>
+              <hr class="border-t-2 mt-3 border-red-500">
+
+            <li class="font-light m-3 ml-5">ma privacys mak vuntay praveen so vatikosam nv vere vallani adaganavasharam ledhuu...avi konni cheppavalsinavi vuntay cheppalenivi kuda vuntay.... avi konni chepukoledhu lavanya ..each and everything adhi share chesukoledhu nitho so please try to understand that one thing  and tanu cheppadam ledhu antey some what we have some privacys okay na..</li>
+              <ul class="ml-8 mr-3 list-disc ">
+                <li>Nen veetikosamu, evvariki calls chesi adageyyaledhu.Nakemyna gudacharulu unnara akkada<span class="text-red-500 font-bold">?</span> Thanaki 2 to 3 times chesaka pick cheyyakapothe, valla roomates ki chesi <i>"Emchestundhi? call lift chytle"</i> ani chesanu. Anthe gani meru anukhunattu 1st 1st vallaki vellaki call chesi adagi thelskoni nen sadhincheyyalsindhem ledhu<span class="text-green-500 font-bold">!</span> Even monna Lavanya lift cheyyaka pothe ravi khuda nakhu call chesi <i>"Bunny number send chyra<span class="text-green-500 font-bold">!</span> Chinni call lift chytledhenti<span class="text-red-500 font-bold">?</span>"</i> ani adigaru. Adhi naa chelli, na responsibility ani feel iyye ee annayya kyna untadhandi aa gubulu, adhi mekhu ardham ithe <span class="font-semibold cursor-pointer underline" id="speech20">STATED</span> anee mata anapodhuru.</li>
+                <li>Me privacys thelsukovalani nen epudu interest chupinchaledhu. Thanem chepindho, mek ee way lo convey ayindho gani, nen thanatho <span class="font-semibold cursor-pointer underline" id="speech21">VOICED</span> ani annanu. Dhaniki inni synonyms untayi ani telisunte anapodhunu. Nen epudyna lonely ga feel ayi thanaki phone cheste, thanu mee dhaggara unna ani chepthe <sup>sare matladu</sup> ane pettestanu. Meeru some what privacy lo unapudu nen porapatuna call chesina, aa time lo nak abhadhamee cheppandi<span class="text-green-500 font-bold"> !</span></li>
+              </ul>
+              <hr class="border-t-2 mt-3 border-red-500">
+
+            <li class="font-light m-3 ml-5">words may lie actions are observble ante chudataniki vinadaniki chettala vundi..em actions kanabaddayo teliyadhu nak itey mari..oka vela mem tirigina nik lies cheppanavasharam.ledhu..raviki lies cheppam antey oka reason vundhi ... bayata vunna time lo cheppakunda vaste alane jarugutadhi praveen  danikosam feel avvanavasharamleyy.....</li>
+              <p class="ml-5 mr-3">Wow<span class="text-green-500 font-bold">!</span>  Asalu aa roju thanu call lo mataldina prathi mata naa gundello dhigipoyayi, vintunnavanni lies ani thelisi khuda, inka inka endhukaduguthunnano nake ardham kaledhu. 7th na meekhu gurthundhaa?  <spam class="cursor-pointer font-semibold underline" id="speech18">SHARED</spam> ani annanu metho, Ravi ki nakhu manidhariki unantha rapo khuda ledhu ina aa 5days nannu chuskunna vidhanananiki nen abhadham cheppalekapoyanu<span class="text-green-500 font-bold">!</span> alantidhi 3years kalisunnam ala ela cheppindho ardham kaleedhu nakhu. Nen aa status 5mins khuda unchaledhemo ala status pettinatte marchipoya, aa day chala silent ga undham entha suffer ayina nalo nenee avvali evvarni em anakudadhu ani me calls khuda pick chyledhu, anthe gani metho matladam manesi nen gold medal sadhinchedham ani kadhu, ina nen aa status lo ee peru mention chyledhu, but mimmalne ani ela anukhuntunnaru, nijamemito meekhu thelsu khadha, thanu nak abhadham chepthundhi ani epudu anukoledhu, <span class="font-semibold cursor-pointer underline" id="speech19">MENTIONED</span> bhaga ardham ayindhi mekhu, thanaki nen epudu surprises ivvadanike istabadathanu, ina aa roju jarigindhanni asalu recall cheskovalanukotledhu, next time nundi alanti surprises first nen thiskodaniki ready ga lenu. So cheppe vastanu, don't worry about that.</p>
+              <hr class="border-t-2 mt-3 border-red-500">
+
+            <li class="font-light m-3 ml-5">LAVANYANI ADIGANU MI FRIENDS EM AYINA ANUKUNTARA ANI TANA REPLY ENTI ANTEY  VALLAKOSAM THINK CHEYYAKU.NANA  NEN NITHO SPEND CHESINA TIME LEDHU IPPATIVARAKU MALLI NUVVU KOLKATHA ANTUNNAV VELLIPOTHE IMKA ASALU MANA KALISI SPEND CHEYYADANIKI  VUNDADHU AKKADA COLLEGE LO ALA LEDHU... IKKADA IL KOLKATHA VASTE .VUNDADHU ANI CHEPPINDHI.. MANAKOSAM MANAM HAPPY VUNDHAM ..EVARIKOSAM THINK CHEYVADDHU ANI ANNADHI NEN LAVANYANI HAPPY VUNCHALI.ANI ANUKUNTUNNA ...</li>
+              <p class="ml-5 mr-3">Entidhantha asalu <span class="font-semibold cursor-pointer underline" id="speech22">VOICED</span> annadhaniki inthento nak ardham katle, mer emanukhuntunnaru<span class="text-red-500 font-bold">?</span>  Mee idharini nen vidagotteyyadaniki chustunnanu ani anukhuntunara<span class="text-red-500 font-bold">?</span> Please reset both of your minds if your answer is YES. <i>MI FRIENDS EM AYINA ANUKUNTARA</i> ani meru thanani adagadam, thanu cheppina samadhannanni namundhunchadam, endhukivanni<span class="text-red-500 font-bold">?</span>  Mee messages anni chadhivaka Lavanya ki ila <span class="font-semibold cursor-pointer underline" id="speech23">MESSAGE</span> chesanu. <br> Nen thanani B.tech lo <span class="font-bold">Two times adiganu:</span> <i>Nen ninnu Adhi chykhu, Idhi chykhu, Bike medha fast ga vellaku, Back row lo khurchoku edhara kurcho, Chunni vesko, Helmet pettuko, Ala undu, Ila undu ani enno cheppanu khadha<span class="text-green-500 font-bold">!</span> Ninnu restrict chestunattu undha </i><span class="text-red-500 font-bold">?</span>  <span class="font-bold">Her answer:</span> <i>Nv em cheppina na manchike ani anukhuntanu, restrict chesinattu anukonu</i>. <br>Ippatila naa matalani medhagara <i>vadila antunnadu</i> ani oka complaint la apude cheppunte, <i class="font-semibold">Ne istam nek nachinatundu</i> ani apude cheppevadni.</p> 
+              <hr class="border-t-2 mt-3 border-red-500">
+
+            <li class="font-light m-3 ml-5">LAVANYA TARUPUNA NEN CHEPTUNNA PRAVEEN LAVANYA ANNI SHARE CHESUKOLEDHU ..DANIKI LUDA KONNI LIMITS VUNTAY KADHA PRAVEEN..AVI  TELUSUKOKAPOVADAM BEST ANI NA. OPINION ..EVEN BIRTH ICCHINA PARENTS KI KUDA TELIYAKUDADHU.. AND AH STATUS MALLI OKA SARI CHUDU ACTIONS ARE OBSERVBLE ANTEY ANTHA OBSERVE CHEYYADANIKI EM.PEDHU AKKADA TEMPLE KI VELLAM ANTHE..</li>
+              <p class="ml-5 mr-3">I respect your opinion, so nen ika py thanadhaggara nundi emathramu expect chynu<span class="text-green-500 font-bold"> !</span>  and aa status antara, mana anukhunna valu manatho chepthundhi abhadham ani thelisinapudu aa pain thattukodam chala kastam, alanti situation mekevariki rakhudadhani korukuntunna. Apudu velynantha silent ga undadaniki try chesanu. Status pettina, ventane delete chesanu <sup>Endhuku meru happy ga unapudu ivanni</sup> ani. Entha suffer ayina nalo nen paddanu gani evvvarini panethu maatanleddhu. Ika py na status lu mimmalni etuvanti disturbance cheyyavu<span class="text-green-500 font-bold"> !</span> </p>
+              <hr class="border-t-2 mt-3 border-red-500">
+
+            <li class="ml-5 m-3"> &nbsp; &nbsp; Lavanya okasari mek chepindhi: <span class="font-semibold cursor-pointer underline" id="speech25">EXPRESSED</span>, ala ee okkadu thanani em anakhunda, thana mundhu oka wall laga and oka protection layer la unnanu innalu, kani aa layer valla mek ibhandhi kaligindhi, aa wall ee ipudu mekhu adduvachindhi<span class="text-green-500 font-bold">!</span>  Anthegane ikkada evaru change ipoyi, mosalu, dhrohalu cheseyyaledhani na opinion, mek chesinattu anipiste <span>endhukila chesav<span class="text-red-500 font-bold"> ?</span></span> ani nannu niladhiyochu. Em unna direct ga cheppeyandi, <span class="font-semibold cursor-pointer underline" id="speech24">STATED</span> ante ika nundi nvu etuvanti caring chupinchanavaram ledhu, ippati varakhu chupinchindhi saripodhi ani direct ga cheppeyandi parvaledhu.</li>
+              <hr class="border-t-2 mt-3 border-red-500">
+
+            <li class="font-light mb-2 mt-3 ml-5">Kadha andi endhukuleyy praveen ... Anthaga ibbandhi vuntey call me laxman...</li>
+              <p class="ml-5 mr-3">Nen monna manam meet ayinapudu khuda ilane pilichanu, singular word use chesi mimalni gawravam lekhunda ee okka roju sambodhinchaledhu. Ee type of discussions valla mekhu odd ga kanipistundhi<span class="text-green-500 font-bold"> !</span>  mana madhya conversation normal ga unte idhi ila highlight chesi cheppapodhuru. Lavanya mimmalni epudu respectfull ga pilustadhi kabatti nakhu alane alavatyndhi and ala pilavadam lo nak etuvanti ibbandhi ledhu<span class="text-green-500 font-bold"> !</span> but meeru ila antunnar kabhatti, Surly we can proceed with this from now.</p>
+              <hr class="border-t-2 mt-3 border-red-500">
+
+            <li class="font-light m-3 ml-5">Nak.ni midha etlanti kopam ledhu... Evariki ayina aitey chala ravali nak endhuko ravadamledh abba</li>
+              <p class="ml-5 mr-3">Meeru chepindhi 100% nijam<span class="text-green-500 font-bold"> !!</span>  Evaryna ithe nen chesinadhaniki nannu edhokati chestaru kopam lo endhukante: <br>
+                <ul class="list-disc ml-10 mr-3">
+                  <li> Thanu epudu edhi cheyyalanna, thana venaka backbone la nilabhaddanu khadha<span class="text-green-500 font-bold"> !</span>  andhukhu kopam ravali.</li>
+                  <li> Ee lost 3years lo thanadhaggara evvaru lenapudu thana dhaggarundi <span class="font-semibold">Nek nen unnanu khadhamma! Evaru lepothe enti ?</span> ani epatikapudu thana face medha chirunavvu prayathnistune unnanu khadha<span class="text-green-500 font-bold"> !</span> andhukhu kopam ravali.</li>
+                  <li> Eppatikapudu thanaku thodundi support chesanu khadha<span class="text-green-500 font-bold"> !</span> andhuku kopam ravali.</li>
+                  <li> Exams lo fail ipothan ani bhayapadapudu thana chuttu positive vibe ni theskochi, Em khadhu nuvvu em fail avvavu, if fail ithe ne revaluation and supply fees nen kadathanu ani support ichan khadha<span class="text-green-500 font-bold"> !</span> andhukhu kopam ravali.</li>
+                  <li> Thana medha thanaki nammakam lenu rojuna thana pakkanundi thanakante thanani nen ekhuva nammi negetive ga alochinchakhu nvu cheyyagalavu ani push chesi mundhuki theskellanu khadha<span class="text-green-500 font-bold"> !</span> dhaniki kopam ravali.</li>
+                  <li> Dhaniki Ravi dhaggara leni lotu, meeru dhaggara lenu lotu, valla diploma friends vadhileste vallu leni lotu lekunda chuskunnanu khadha<span class="text-green-500 font-bold"> !</span> dhaniki kopam ravali.</li>
+                </ul>
+                <span class="ml-5">Aa kopam lo nannu edhoti chesedhuru evaryna ithe, thank god meeru ala chyledhu. Thank You So Much<span class="text-green-500 font-bold"> !!!</span></span>
+              </p>
+              <hr class="border-t-2 mt-3 mb-4 border-red-500">
+          </ol>
+        </div>
+      
+      </div>
+    </section>
+
+    <section class="flex flex-col min-h-screen bg-slate-800 text-white justify-center  bg-center bg-cover bg-blend-overlay bg-fixed bg-black/30" style="background-image: url('https://source.unsplash.com/random/')">
+      <div class="flex-1 flex items-center">
+        <div class="text-center mx-auto">
+          <h1 class="text-5xl font-semibold">Feeling regret and apologizing for everything I did!</h1>
+          <p class="font-light text-3xl mt-5">Life is full of surprises and miracles</p>
+        </div>
+      </div>
+    </section>
+    
+    <footer class ="bg-gray-900 text-center text-gray-400 text-xs  p-6">Copy rights(c) <strong>Infinity</strong> @11 December 2020</footer>
+    </div>
+  </body>
+    
+  <script>
+    // Check if the user is using a mobile device
+    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+
+    // Hide the mobile message and show the content if not using a mobile device
+    if (!isMobile) {
+      document.getElementById('mobileMessage').style.display = 'none';
+      document.getElementById('content').style.display = 'block';
+    }
+
+    function toggleReadMore()
+    {
+        var moreText = document.getElementById("moreText");
+        var readMoreBtn = document.getElementById("readMoreBtn");
+        if (moreText.style.display === "none") {
+          moreText.style.display = "block";
+          readMoreBtn.innerHTML = "Hide Text <span class='inline-block transform rotate-90'>&#9665;</span>";
+        } else {
+          moreText.style.display = "none";
+          readMoreBtn.innerHTML = "Read More... <span class='inline-block transform rotate-90'>&#9655;</span>";
+        }
+    }
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+      tippy("#speech", {content: "Here you can read what you exactly texted me before (or) what I told to you or Lavanya or anyone else (or) what I here from someone!",});
+      tippy("#speech1", {content: "Laxman on whatsup: trustme nijammga matladali ani ledhu  andhukaney msg pedutuna",});
+      tippy("#speech2", {content: "Praveen told with Lavanya: Nvu konni vishayalu nakhu cheppatledhe, nen adagalante adagalekapothunnanu em cheppalanukhunnna nuvve cheppyve!",});
+      tippy("#speech3", {content: "Laxman told with Praveen: Konni days undu praveen bharam em undhabba!",});
+      tippy("#speech4", {content: "Nuvvu bharam enti?",});
+      tippy("#speech5", {content: "Bhaga kavalsinodivi!",});
+      tippy("#speech6", {content: "Goa vastava mathopatu?",});
+      tippy("#speech7", {content: "lavanya ninnu chala nammindhi praveen",});
+      tippy("#speech8", {content: "nen ninnu chala.nammanu even nitho matladaleni roju ninnu nammanu..",});
+      tippy("#speech9", {content: "Cheptunna kadha lavanya nik entha preference icchindhi antey mem matladukunedhe takkuva ..ah time lo nuvvu call cheste nak call reject ches ni call answer chesedhi praveen chestunnadu agu malli chesta ani...",});
+      tippy("#speech10", {content: "Lavanya told with Pravee: nen kaligane untunna, nvu call chytledhu khadha andhuke nenu chytle",});
+      tippy("#speech11", {content: "manam cheppali praveen okasari vinaledhante rendu, mudu sarlu cheppali poyedhem undhabba okasari kakapothe malli sari vintaramo",});
+      tippy("#speech12", {content: "nik cheppakhunda em cheyyakhudadha asalu",});
+      tippy("#speech13", {content: "Thanani jagraga chuskondi, repu okasari thana dhaggaraku velli kalavandi",});
+      tippy("#speech14", {content: "thanu na dhaggara undhi ana..",});
+      tippy("#speech15", {content: "Velli thanani kalavandi, thanatho matladi randi",});
+      tippy("#speech16", {content: "ledh ante tanu nike time ivvala",});
+      tippy("#speech17", {content: "3years lo nuvu makosam chala thelusukunnav chala ardham cheskunnav",});
+      tippy("#speech18", {content: "Ravi ki abhadham cheppalekapoyanu mata nathi laga thadabadipoyindhi",});
+      tippy("#speech19", {content: "bayata vunna time lo cheppakunda vaste alane jarugutadhi praveen  danikosam feel avvanavasharamleyy.....",});
+      tippy("#speech20", {content: "nv vere vallani adaganavasharam ledhu",});
+      tippy("#speech21", {content: "Ninnu vellodhu anatledhu. Vellu, kani velledapudu oka mata natho cheppu even office kellinapudu khuda! Nek gurthuraka pothe nak cheppakhunda hostel dhatodhu! apudu gurthundi chepthav",});
+      tippy("#speech22", {content: "Nvu bhayatakelinapudu nak oka mata cheppu, reppanna rojuna em jarigina accept chesela undale",});
+      tippy("#speech23", {content: "past 2 months ga nen chepindhi, matladinavi anni bin lo move chesseyi. nv na kante chala thelivyndhanivi nen jagrathalu chepthene nek thelustayi ani nen anukotle. so, neekhu edhi correct anipistadho adhe chy. ika py natho nek etu vanti problem undadhu max.",});
+      tippy("#speech24", {content: "Thank you so much praveen for your  concern on us... till now",});
+      tippy("#speech25", {content: "College lo nannu vadini lovers anukhuntaru, mek em dhigulodhu naa venaka evvaru padi nannu ibhandhi pettaru",});
+      tippy("#speech26", {content: "Reyi thanatho matladandraa, thanani kuncham chuskondra edhyna avasaram unte nak call chyndra",});
+      tippy("#speech27", {content: "Lavanya tho friendship cheyi, Lavanya tho me class valu sarigga undatledhu, nuvvu thanatho matladu! jagrathaga chusko",});
+
+    });
+  </script>
+
+</html>
