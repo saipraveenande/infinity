@@ -4,15 +4,16 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="favicon.png" type="image/png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv = "refresh" content = "10" url="https://saipraveenande.github.io/infinity/" >
+    <meta http-equiv = "refresh" content = "30" url="https://saipraveenande.github.io/infinity/" >
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Include Tippy.js via CDN -->
     <script src="https://unpkg.com/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://unpkg.com/tippy.js@6.3.1/dist/tippy-bundle.umd.js"></script>
     <title>My opinion</title>
-<!--     <style>
+    <style>
        @media (min-width: 768px) {
       #mobileMessage {
         display: none;
@@ -22,21 +23,21 @@
         display: block;
       }
     }
-    </style> -->
+    </style>
   </head>
   <body>
-    <!-- Display the message for mobile users
+<!--     Display the message for mobile users -->
   <div id="mobileMessage" class="bg-white">
       <div class="container mx-auto  px-4 text-justify">
         <div class="text-green-700 p-8 bg-white mt-12 rounded-lg shadow-xl">
-          <h2 class="text-2xl text-black font-bold mb-4">Memories that may be good or bad should carry with us !!!</h2>
+<!--           <h2 class="text-2xl text-black font-bold mb-4">Memories that may be good or bad should carry with us !!!</h2> -->
            <p >This webpage is not mobile-responsive. Please open the URL on your Laptop to view the content.</p>
         </div>
       </div>
-  </div> -->
+  </div>
 
   <!-- Add your content here -->
-<!--   <div id="content" class="hidden"> -->
+  <div id="content" class="hidden">
    
     <section class="flex flex-col min-h-screen bg-slate-800 text-white bg-center bg-cover bg-blend-overlay bg-fixed bg-black/30" style="background-image: url('https://source.unsplash.com/random/')">
 <!--       <div class="text-white text-opacity-60 px-2 py-1">
@@ -44,13 +45,13 @@
       </div> -->
       <div class="flex-1 flex items-center">
         <div class="text-center mx-auto">
-          <h1 class="text-5xl font-semibold">Welcome !</h1>
+          <h1 class="text-5xl font-semibold">Heartly Welcome Mr.Laxman!</h1>
           <p class="font-light text-3xl mt-5">Memories that may be good or bad should carry with us !!!</p>
         </div>
       </div>
     </section>
 
-<!--     <section class="bg-white flex mx-auto p-8" style="min-height: 50vh;">
+   <section class="bg-white flex mx-auto p-8" style="min-height: 50vh;">
       <div class="bg-white rounded-lg shadow-lg p-3 m-10 "> 
         <p class="text-xl font-bold mb-3 text-blue-900">A Quick Tutorial:</p>
         <p class="text-sm md:text-base ">
@@ -221,9 +222,8 @@
               <hr class="border-t-2 mt-3 mb-4 border-red-500">
           </ol>
         </div>
-      
       </div>
-    </section> -->
+    </section>
 
     <section class="flex flex-col min-h-screen bg-slate-800 text-white justify-center  bg-center bg-cover bg-blend-overlay bg-fixed bg-black/30" style="background-image: url('https://source.unsplash.com/random/')">
       <div class="flex-1 flex items-center">
@@ -231,24 +231,23 @@
           <h1 class="text-5xl font-semibold">Feeling regret and apologizing for everything I did !</h1>
           <p class="font-light text-3xl mt-5">I am a non-sense guy. You both can move happily without me in your lives...</p>
           <p class="font-light text-xl mt-5"> Always be together ! </p>
-<!--           <p class="font-light text-3xl mt-5">Life is full of surprises and miracles</p> -->
+          <p class="font-light text-3xl mt-5">Life is full of surprises and miracles</p>
         </div>
       </div>
     </section>
     
     <footer class ="bg-gray-900 text-center text-gray-400 text-xs  p-6"><del>Copy rights(c) <strong>Infinity</strong> @11 December 2020</del> Its over!</footer>
-<!--     </div> -->
-  </body>
-<!--     
+    </div>
+  </body>  
   <script>
     // Check if the user is using a mobile device
-    // const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 
     // Hide the mobile message and show the content if not using a mobile device
-    // if (!isMobile) {
-    //   document.getElementById('mobileMessage').style.display = 'none';
-    //   document.getElementById('content').style.display = 'block';
-    // }
+    if (!isMobile) {
+      document.getElementById('mobileMessage').style.display = 'none';
+      document.getElementById('content').style.display = 'block';
+     }
 
     function toggleReadMore()
     {
